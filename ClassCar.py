@@ -19,7 +19,7 @@ print(alex_car.car_description())
 
 
 class Truck(Car):
-    def __init__(self, model, production_year, motor_volume, price, distance):
+    def __init__(self, model,  production_year, motor_volume, price, distance):
         super().__init__(model, production_year, motor_volume, price, distance)
 
 
